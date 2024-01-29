@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="index.html">
+          <img src="images/logo.png" alt="coffee House">
+        </a>
+        <nav class="nav__menu">
+          <div class="menu__btn" id="menuButton">
+              <span class="menu__btn--span"></span>
+              <span class="menu__btn--span"></span>
+          </div>
+          <ul class="nav__menu--list">
+            <li class="nav__menu--item">
+              <a href="index.html#favourites__coffee" class="nav__menu--link" data-target="favourites__coffee">Favorite coffee</a>
+            </li>
+            <li class="nav__menu--item">
+              <a href="index.html#about" class="nav__menu--link" data-target="about">About</a>
+            </li>
+            <li class="nav__menu--item">
+              <a href="index.html#mobile__app" class="nav__menu--link" data-target="mobile__app">Mobile app</a>
+            </li>
+            <li class="nav__menu--item">
+              <a href="index.html#footer" class="nav__menu--link" data-target="footer">Contact us</a>
+            </li>
+            <li class="menu--page">
+              <a class="menu--link" href="index-2.html">Menu <img src="images/coffee-cup.svg" alt=""
+                class="menu--page-img"></a>
+            </li>
+          </ul>
+
+        </nav>
+        <div class="menu__page-link">
+          <a class="menu__link" href="index-2.html">Menu <img src="images/coffee-cup.svg" alt=""
+              class="menu__page-img"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="menu">
+      <div class="container">
+        <h1 class="title menu__title">
+          Behind each of our cups hides an <span>amazing surprise</span>
+        </h1>
+        <ul class="menu__categories">
+          <li class="category__item">
+            <button id="category__button" class="category__button active" data-category="coffee">
+              <span class="coffee-category">
+                <img src="images/coffe-category.png" alt="">
+              </span>
+              Coffee
+            </button>
+          </li>
+          <li class="category__item">
+            <button id="category__button" class="category__button" data-category="tea">
+              <span class="tea-category">
+                <img src="images/tea-category.png" alt="">
+              </span>
+              Tea
+            </button>
+          </li>
+          <li class="category__item">
+            <button id="category__button" class="category__button" data-category="desert">
+              <span>
+                <img src="images/dessert-category.png" alt="">
+              </span>
+              Dessert
+            </button>
+          </li>
+        </ul>
+
+        <div class="menu__inner">
+          <ul class="menu__list coffee">
+            <li class="menu__list--item" data-path="one">
+              <div class="menu__list--img menu__list--img1"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Irish coffee
+                </h3>
+                <p class="menu__list--text">
+                  Fragrant black coffee with Jameson Irish whiskey and whipped milk
+                </p>
+                <span class="menu__list--price">
+                  $7.00
+                </span>
+              </div>
+            </li>
+
+            <li class="menu__list--item" data-path="two">
+              <div class="menu__list--img menu__list--img2"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Kahlua coffee
+                </h3>
+                <p class="menu__list--text">
+                  Classic coffee with milk and Kahlua liqueur under a cap of frothed milk
+                </p>
+                <span class="menu__list--price">
+                  $7.00
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="three">
+              <div class="menu__list--img menu__list--img3"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Honey raf
+                </h3>
+                <p class="menu__list--text">
+                  Espresso with frothed milk, cream and aromatic honey
+                </p>
+                <span class="menu__list--price">
+                  $5.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="four">
+              <div class="menu__list--img menu__list--img4"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Ice cappuccino
+                </h3>
+                <p class="menu__list--text">
+                  Cappuccino with soft thick foam in summer version with ice
+                </p>
+                <span class="menu__list--price">
+                  $5.00
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="five">
+              <div class="menu__list--img menu__list--img5"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Espresso
+                </h3>
+                <p class="menu__list--text">
+                  Classic black coffee
+                </p>
+                <span class="menu__list--price">
+                  $4.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="six">
+              <div class="menu__list--img menu__list--img6"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Latte
+                </h3>
+                <p class="menu__list--text">
+                  Espresso coffee with the addition of steamed milk and dense milk foam
+                </p>
+                <span class="menu__list--price">
+                  $5.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="seven">
+              <div class="menu__list--img menu__list--img7"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Latte macchiato
+                </h3>
+                <p class="menu__list--text">
+                  Espresso with frothed milk and chocolate
+                </p>
+                <span class="menu__list--price">
+                  $5.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="eight">
+              <div class="menu__list--img menu__list--img8"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Coffee with cognac
+                </h3>
+                <p class="menu__list--text">
+                  Fragrant black coffee with cognac and whipped cream
+                </p>
+                <span class="menu__list--price">
+                  $6.50
+                </span>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="menu__list tea">
+            <li class="menu__list--item" data-path="nine">
+              <div class="menu__list--img menu__list--img9"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Moroccan
+                </h3>
+                <p class="menu__list--text">
+                  Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint
+                </p>
+                <span class="menu__list--price">
+                  $4.50
+                </span>
+              </div>
+            </li>
+
+            <li class="menu__list--item" data-path="ten">
+              <div class="menu__list--img menu__list--img10"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Ginger
+                </h3>
+                <p class="menu__list--text">
+                  Original black tea with fresh ginger, lemon and honey
+                </p>
+                <span class="menu__list--price">
+                  $5.00
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="eleven">
+              <div class="menu__list--img menu__list--img11"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Cranberry
+                </h3>
+                <p class="menu__list--text">
+                  Invigorating black tea with cranberry and honey
+                </p>
+                <span class="menu__list--price">
+                  $5.00
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="twelve">
+              <div class="menu__list--img menu__list--img12"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Sea buckthorn
+                </h3>
+                <p class="menu__list--text">
+                  Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon
+                </p>
+                <span class="menu__list--price">
+                  $5.50
+                </span>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="menu__list desert">
+            <li class="menu__list--item" data-path="thirdteen">
+              <div class="menu__list--img menu__list--img13"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Marble cheesecake
+                </h3>
+                <p class="menu__list--text">
+                  Philadelphia cheese with lemon zest on a light sponge cake and red currant jam
+                </p>
+                <span class="menu__list--price">
+                  $3.50
+                </span>
+              </div>
+            </li>
+
+            <li class="menu__list--item" data-path="fourteen">
+              <div class="menu__list--img menu__list--img14"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Red velvet
+                </h3>
+                <p class="menu__list--text">
+                  Layer cake with cream cheese frosting
+                </p>
+                <span class="menu__list--price">
+                  $4.00
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="fifteen">
+              <div class="menu__list--img menu__list--img15"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Cheesecakes
+                </h3>
+                <p class="menu__list--text">
+                  Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar
+                </p>
+                <span class="menu__list--price">
+                  $4.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="sixteen">
+              <div class="menu__list--img menu__list--img16"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Creme brulee
+                </h3>
+                <p class="menu__list--text">
+                  Delicate creamy dessert in a caramel basket with wild berries
+                </p>
+                <span class="menu__list--price">
+                  $4.00
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="seventeen">
+              <div class="menu__list--img menu__list--img17"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Pancakes
+                </h3>
+                <p class="menu__list--text">
+                  Tender pancakes with strawberry jam and fresh strawberries
+                </p>
+                <span class="menu__list--price">
+                  $4.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="eightteen">
+              <div class="menu__list--img menu__list--img18"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Honey cake
+                </h3>
+                <p class="menu__list--text">
+                  Classic honey cake with delicate custard
+                </p>
+                <span class="menu__list--price">
+                  $4.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="nineteen">
+              <div class="menu__list--img menu__list--img19"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Chocolate cake
+                </h3>
+                <p class="menu__list--text">
+                  Cake with hot chocolate filling and nuts with dried apricots
+                </p>
+                <span class="menu__list--price">
+                  $5.50
+                </span>
+              </div>
+            </li>
+            <li class="menu__list--item" data-path="tventy">
+              <div class="menu__list--img menu__list--img20"></div>
+              <div class="menu__item--content">
+                <h3 class="menu__list--title">
+                  Black forest
+                </h3>
+                <p class="menu__list--text">
+                  A combination of thin sponge cake with cherry jam and light chocolate mousse
+                </p>
+                <span class="menu__list--price">
+                  $6.50
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button id="load-more" class="load-more">
+          <img src="images/refresh.svg" alt="">
+        </button>
+      </div>
+      <div class="modals">
+        <div class="modal__overlay">
+          <div class="modal modal--1" data-target="one" data-total-price="7.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img1"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Irish coffee</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Fragrant black coffee with Jameson Irish whiskey and whipped milk
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$7.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--2" data-target="two" data-total-price="7.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img2"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Kahlua coffee</h3>
+                <div class="modal__content">
+                  <p class="modal__text">FClassic coffee with milk and Kahlua liqueur under a cap of frothed milk
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$7.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--3" data-target="three" data-total-price="5.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img3"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Honey raf</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Espresso with frothed milk, cream and aromatic honey
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--4" data-target="four" data-total-price="5.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img4"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Ice cappuccino</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Cappuccino with soft thick foam in summer version with ice
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--5" data-target="five" data-total-price="4.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img5"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Espresso</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Classic black coffee
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--6" data-target="six" data-total-price="5.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img6"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Latte</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Espresso coffee with the addition of steamed milk and dense milk foam
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--7" data-target="seven" data-total-price="5.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img7"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Latte macchiato</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Espresso with frothed milk and chocolate
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--8" data-target="eight" data-total-price="6.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img8"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Coffee with cognac</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Fragrant black coffee with cognac and whipped cream
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Cinnamon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$6.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--9" data-target="nine" data-total-price="4.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img9"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Moroccan</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Lemon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--10" data-target="ten" data-total-price="5.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img10"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Ginger</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Original black tea with fresh ginger, lemon and honey
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Lemon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--11" data-target="eleven" data-total-price="5.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img11"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Cranberry</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Invigorating black tea with cranberry and honey
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Lemon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--12" data-target="twelve" data-total-price="5.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img12"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Sea buckthorn</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">200 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">300 ml</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">400 ml</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Sugar</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Lemon</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Syrup</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--13" data-target="thirdteen" data-total-price="3.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img13"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Marble cheesecake</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Philadelphia cheese with lemon zest on a light sponge cake and red currant jam
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$3.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--14" data-target="fourteen" data-total-price="4.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img14"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Red velvet</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Layer cake with cream cheese frosting
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--15" data-target="fifteen" data-total-price="4.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img15"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Cheesecakes</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--16" data-target="sixteen" data-total-price="4.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img16"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Creme brulee</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Delicate creamy dessert in a caramel basket with wild berries
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--17" data-target="seventeen" data-total-price="4.00">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img17"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Pancakes</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Tender pancakes with strawberry jam and fresh strawberries
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.00</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--18" data-target="eightteen" data-total-price="4.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img18"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Honey cake</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Classic honey cake with delicate custard
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$4.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--19" data-target="nineteen" data-total-price="5.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img19"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Chocolate cake</h3>
+                <div class="modal__content">
+                  <p class="modal__text">Cake with hot chocolate filling and nuts with dried apricots
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$5.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal modal--20" data-target="tventy" data-total-price="6.50">
+            <div class="modal__container">
+              <div class="modal__img menu__list--img20"></div>
+              <div class="modal__content--container">
+                <h3 class="title modal__title">Black forest</h3>
+                <div class="modal__content">
+                  <p class="modal__text">A combination of thin sponge cake with cherry jam and light chocolate mousse
+                  </p>
+                  <div class="modal__choose--buttons">
+                    <p class="size__title">Size</p>
+                    <ul class="modal__size">
+                      <li class="size__item active">
+                        <div class="size__letter">S</div>
+                        <span class="size__item--text">50 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">M</div>
+                        <span class="size__item--text">100 g</span>
+                      </li>
+                      <li class="size__item">
+                        <div class="size__letter">L</div>
+                        <span class="size__item--text">200 g</span>
+                      </li>
+                    </ul>
+                    <p class="additives__title">Additives</p>
+                    <ul class="modal__additives">
+                      <li class="additives__item">
+                        <div class="additives__letter">1</div>
+                        <span class="additives__item--text">Berries</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">2</div>
+                        <span class="additives__item--text">Nuts</span>
+                      </li>
+                      <li class="additives__item">
+                        <div class="additives__letter">3</div>
+                        <span class="additives__item--text">Jam</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal__total">
+                    <h3 class="title total__title">Total:</h3>
+                    <h3 class="title total__price">$6.50</h3>
+                  </div>
+                  <div class="modal__notification">
+                    <img src="images/notification.svg" alt="" class="img__notification">
+                    <p class="text__notification">The cost is not final. Download our mobile app to see the final price
+                      and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.
+                    </p>
+                  </div>
+                  <button class="total__button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__social--links">
+          <h2 class="title footer__title">
+            Sip, Savor, Smile. <span>It’s coffee time!</span>
+          </h2>
+          <div class="footer__links">
+            <a href="#" class="footer__link"><svg class="svg__icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z"
+                  stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></a>
+            <a href="#" class="footer__link"><svg class="svg__icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                  stroke="#E1D4C9" />
+                <path d="M17.5 6.51L17.51 6.49889" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></a>
+            <a href="#" class="footer__link"><svg class="svg__icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                  stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer__contact">
+          <h3 class="title contact__title">
+            Contact us
+          </h3>
+          <ul class="contact__list">
+            <li class="contact__item"><a href="https://yandex.uz/maps/-/CDqIi-1z" target="_blank"><img
+                  src="images/map-pointer.svg" alt=""> 8558 Green Rd., LA</a></li>
+            <li class="contact__item"> <a href="tel:+16035550123"><img src="images/phone.svg" alt=""> +1 (603)
+                555-0123</a></li>
+            <li class="contact__item"><img src="images/clock.svg" alt=""> Mon-Sat: 9:00 AM – 23:00 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/addition.js"></script>
+</body>
+
+</html>
